@@ -8,6 +8,14 @@ module.exports = (_sequelize, DataTypes) => {
     },
     subject: DataTypes.STRING,
     status: DataTypes.STRING,
+    createdAt: {
+      type: DataTypes.DATE,
+      defaultValue: Date.now(),
+    },
+    updatedAt: {
+      type: DataTypes.DATE,
+      defaultValue: Date.now(),
+    },
   }, {
     timestamps: false,
     modelName: 'Task',
