@@ -7,8 +7,16 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.INTEGER,
     },
     name: DataTypes.STRING,
+    createdAt: {
+      type: DataTypes.DATE,
+      defaultValue: Date.now(),
+    },
+    updatedAt: {
+      type: DataTypes.DATE,
+      defaultValue: Date.now(),
+    },
   }, {
-    timestamps: false,
+    // timestamps: false,
     modelName: 'User',
   });
   return User;
