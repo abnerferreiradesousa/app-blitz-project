@@ -10,7 +10,7 @@ module.exports = {
           key: 'id',
         },
       },
-      taskid: {
+      taskId: {
         primaryKey: true,
         allowNull: false,
         type: Sequelize.INTEGER,
