@@ -1,5 +1,5 @@
-module.exports = (_sequelize, DataTypes) => {
-  const Task = ('User', {
+module.exports = (sequelize, DataTypes) => {
+  const Task = sequelize.define('Task', {
     id: {
       allowNull: false,
       autoIncrement: true,
@@ -20,5 +20,6 @@ module.exports = (_sequelize, DataTypes) => {
     timestamps: false,
     modelName: 'Task',
   });
+
   return Task;
 };
