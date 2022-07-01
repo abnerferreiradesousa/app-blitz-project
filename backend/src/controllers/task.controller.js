@@ -17,7 +17,7 @@ const update = async (req, res) => {
 };
 
 const remove = async (req, res) => {
-  const data = await taskService.update(req.body, req.params.id);
+  const data = await taskService.remove(req.params.id);
   res.status(201).json({ data });
 };
 

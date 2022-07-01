@@ -20,9 +20,7 @@ const create = async (newTask) => {
 };
 
 const update = async (newTask, id) => {
-  const data = await Task.update(newTask, {
-    where: { id },
-  });
+  const data = await Task.update(newTask, { where: { id } });
   return data;
 };
 

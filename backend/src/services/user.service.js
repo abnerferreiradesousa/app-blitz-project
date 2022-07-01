@@ -20,9 +20,7 @@ const create = async (newUser) => {
 };
 
 const update = async (newUser, id) => {
-  const data = await User.update(newUser, {
-    where: { id },
-  });
+  const data = await User.update(newUser, { where: { id } });
   return data;
 };
 

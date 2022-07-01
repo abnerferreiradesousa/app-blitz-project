@@ -17,7 +17,7 @@ const update = async (req, res) => {
 };
 
 const remove = async (req, res) => {
-  const data = await userService.update(req.body, req.params.id);
+  const data = await userService.remove(req.params.id);
   res.status(201).json({ data });
 };
 
