@@ -10,11 +10,30 @@ const getAll = async () => {
         through: { attributes: [] },
       },
     ],
-
   });
+  return data;
+};
+
+const create = async (newTask) => {
+  const data = await Task.create(newTask);
+  return data;
+};
+
+const update = async (newTask, id) => {
+  const data = await Task.update(newTask, {
+    where: { id },
+  });
+  return data;
+};
+
+const remove = async (id) => {
+  const data = await Task.destroy({ where: { id } });
   return data;
 };
 
 module.exports = {
   getAll,
+  create,
+  update,
+  remove,
 };
