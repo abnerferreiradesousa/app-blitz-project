@@ -1,11 +1,11 @@
 const { Task, User } = require('../database/models');
 
 const getAll = async () => {
-  const data = await Task.findAll({
+  const data = await User.findAll({
     include: [
       {
-        model: User,
-        as: 'users',
+        model: Task,
+        as: 'tasks',
         attributes: { exclude: ['createdAt', 'updatedAt'] },
         through: { attributes: [] },
       },
@@ -14,18 +14,18 @@ const getAll = async () => {
   return data;
 };
 
-const create = async (newTask) => {
-  const data = await Task.create(newTask);
+const create = async (newUser) => {
+  const data = await User.create(newUser);
   return data;
 };
 
-const update = async (newTask, id) => {
-  const data = await Task.update(newTask, { where: { id } });
+const update = async (newUser, id) => {
+  const data = await User.update(newUser, { where: { id } });
   return data;
 };
 
 const remove = async (id) => {
-  const data = await Task.destroy({ where: { id } });
+  const data = await User.destroy({ where: { id } });
   return data;
 };
 
