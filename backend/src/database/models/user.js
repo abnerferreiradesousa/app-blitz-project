@@ -1,5 +1,5 @@
 module.exports = (sequelize, DataTypes) => {
-  const User = ('User', {
+  const User = sequelize.define('User', {
     id: {
       allowNull: false,
       autoIncrement: true,
@@ -19,5 +19,13 @@ module.exports = (sequelize, DataTypes) => {
     // timestamps: false,
     modelName: 'User',
   });
+
+  // User.associate = (models) => {
+  //   User.belongsTo(models.TaskUser, {
+  //     // Deve ter o nome referente a coluna associada na tabela de passagem
+  //     foreignKey: 'userId',
+  //     as: 'user',
+  //   });
+  // };
   return User;
 };

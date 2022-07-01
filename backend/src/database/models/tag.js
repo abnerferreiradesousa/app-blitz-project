@@ -1,5 +1,5 @@
-module.exports = (_sequelize, DataTypes) => {
-  const Tag = ('User', {
+module.exports = (sequelize, DataTypes) => {
+  const Tag = sequelize.define('Tag', {
     id: {
       allowNull: false,
       autoIncrement: true,
