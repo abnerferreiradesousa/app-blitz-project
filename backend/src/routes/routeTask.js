@@ -1,12 +1,13 @@
 const routeTask = require('express').Router();
+const rescue = require('express-rescue');
 const taskController = require('../controllers/task.controller');
 
-routeTask.get('/', taskController.getAll);
+routeTask.get('/', rescue(taskController.getAll));
 
-routeTask.post('/', taskController.create);
+routeTask.post('/', rescue(taskController.create));
 
-routeTask.put('/:id', taskController.update);
+routeTask.put('/:id', rescue(taskController.update));
 
-routeTask.delete('/:id', taskController.remove);
+routeTask.delete('/:id', rescue(taskController.remove));
 
 module.exports = routeTask;
