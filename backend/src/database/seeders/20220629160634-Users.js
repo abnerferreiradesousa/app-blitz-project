@@ -5,9 +5,11 @@ module.exports = {
       [
         {
           name: 'Henry Cavil',
+          password: '123654',
         },
         {
           name: 'Hugh Grant',
+          password: '456321',
         },
       ],
     );

@@ -9,11 +9,16 @@ function Login() {
   const API_URL = 'http://localhost:3001';
 
   const registerUser = async () => {
-    const body = {
-      name,
-    };
-    const result = await axios.post(`${API_URL}/user`, body);
-    console.log(result.data.data);
+    try {
+      const body = {
+        name,
+        password,
+      };
+      const result = await axios.post(`${API_URL}/user`, body);
+      console.log(result.data.token);
+    } catch (error) {
+      console.log(error.message);
+    }
   };
 
   return (

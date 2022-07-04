@@ -6,9 +6,14 @@ const getAll = async (req, res) => {
   res.status(200).json({ data });
 };
 
-const create = async (req, res) => {
-  const data = await userService.create(req.body);
-  res.status(201).json({ data });
+const login = async (req, res) => {
+  const { name, password } = req.body;
+  const newUserInfo = {
+    name,
+    password,
+  };
+  const token = await userService.login(newUserInfo);
+  res.status(201).json({ token });
 };
 
 const update = async (req, res) => {
@@ -23,7 +28,7 @@ const remove = async (req, res) => {
 
 module.exports = {
   getAll,
-  create,
+  login,
   update,
   remove,
 };

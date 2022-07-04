@@ -4,7 +4,7 @@ const userController = require('../controllers/user.controller');
 
 routeUser.get('/', rescue(userController.getAll));
 
-routeUser.post('/', rescue(userController.create));
+routeUser.post('/', rescue(userController.login));
 
 routeUser.put('/:id', rescue(userController.update));
 

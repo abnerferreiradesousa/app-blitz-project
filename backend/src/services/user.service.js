@@ -1,4 +1,5 @@
 const { Task, User } = require('../database/models');
+const { errorGenerate, generateJWT } = require('../utils');
 
 const getAll = async (userId) => {
   const data = await User.findAll({
@@ -15,9 +16,17 @@ const getAll = async (userId) => {
   return data;
 };
 
-const create = async (newUser) => {
+const login = async (newUser) => {
   const data = await User.create(newUser);
-  return data;
+  if (!data) {
+    throw errorGenerate(404, 'Informações inconsistentes!');
+  }
+  const tokenPayload = {
+    name: newUser.name,
+    id: data.id,
+  };
+  const token = generateJWT(tokenPayload);
+  return token;
 };
 
 const update = async (newUser, id) => {
@@ -32,7 +41,7 @@ const remove = async (id) => {
 
 module.exports = {
   getAll,
-  create,
+  login,
   update,
   remove,
 };
