@@ -1,24 +1,20 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import InputLabel from '../components/InputLabel';
+import MyContext from '../context/MyContext';
 
 const axios = require('axios').default;
 
 function Login() {
+  const { setToken } = useContext(MyContext);
   const [password, setPassword] = useState('');
   const [name, setName] = useState('');
   const API_URL = 'http://localhost:3001';
 
   const registerUser = async () => {
-    try {
-      const body = {
-        name,
-        password,
-      };
-      const result = await axios.post(`${API_URL}/user`, body);
-      console.log(result.data.token);
-    } catch (error) {
-      console.log(error.message);
-    }
+    const body = { name, password };
+    const result = await axios.post(`${API_URL}/user`, body);
+    console.log(result.data.token);
+    setToken(result.data.token);
   };
 
   return (
@@ -42,7 +38,6 @@ function Login() {
         Login
       </button>
       <div>
-        <p>{password}</p>
         <p>{name}</p>
       </div>
     </form>
