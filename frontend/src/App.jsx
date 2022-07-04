@@ -1,8 +1,14 @@
-import React, { useEffect } from 'react';
+import React from 'react';
+import { Route, Switch } from 'react-router-dom';
 import './App.css';
+import Login from './pages/Login';
 
 function App() {
-  return <section>Home</section>;
+  return (
+    <Switch>
+      <Route path="/" component={Login} />
+    </Switch>
+  );
 }
 
 export default App;
