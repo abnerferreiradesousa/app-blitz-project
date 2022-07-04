@@ -1,10 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function InputLabel({ className, placeholder, type }) {
+function InputLabel({
+  className, placeholder, type, onChange,
+}) {
   return (
     <label htmlFor={className}>
-      <input type={type} placeholder={placeholder} className={className} />
+      <input
+        type={type}
+        placeholder={placeholder}
+        className={className}
+        onChange={onChange}
+      />
     </label>
   );
 }
