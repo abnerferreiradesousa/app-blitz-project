@@ -1,7 +1,8 @@
 const { Task, User } = require('../database/models');
 
-const getAll = async () => {
+const getAll = async (userId) => {
   const data = await User.findAll({
+    where: { id: userId },
     include: [
       {
         model: Task,

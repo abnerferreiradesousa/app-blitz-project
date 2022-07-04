@@ -1,8 +1,8 @@
 const userService = require('../services/user.service');
-// const { errorGenerate } = require('../utils/index');
 
-const getAll = async (_req, res) => {
-  const data = await userService.getAll();
+const getAll = async (req, res) => {
+  const { id } = req.user;
+  const data = await userService.getAll(id);
   res.status(200).json({ data });
 };
 
