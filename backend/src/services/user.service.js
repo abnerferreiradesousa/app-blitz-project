@@ -19,9 +19,13 @@ const getAll = async (userId) => {
 const login = async (newUser) => {
   const data = await User.create(newUser);
   if (!data) {
-    throw errorGenerate(404, 'Informações inconscistentes!');
+    throw errorGenerate(404, 'Informações inconsistentes!');
   }
-  const token = generateJWT(newUser);
+  const tokenPayload = {
+    name: newUser.name,
+    id: data.id,
+  };
+  const token = generateJWT(tokenPayload);
   return token;
 };
 

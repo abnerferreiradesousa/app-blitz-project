@@ -12,7 +12,7 @@ const login = async (req, res) => {
     name,
     password,
   };
-  const token = await userService.create(newUserInfo);
+  const token = await userService.login(newUserInfo);
   res.status(201).json({ token });
 };
 

@@ -7,6 +7,7 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.INTEGER,
     },
     name: DataTypes.STRING,
+    password: DataTypes.STRING,
     createdAt: {
       type: DataTypes.DATE,
       defaultValue: Date.now(),
