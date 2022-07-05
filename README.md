@@ -31,3 +31,9 @@ operador OR e AND, respectivamente.
 ### ⚔️ Round Three! Final! **Fiiiiight!** 🥊
 
 * Docker - sem dúvida esse foi o mais desafiante e do qual, como já sabe, não saí vitorioso. De início tentei dockerizar o backend, mas a única coisa que  obtive foi **SequelizeConnectionRefusedError** ao *rodar o docker-compose up*, fiquei decepcionado, porém mais entusiasmado em ver que o Docker é mais profundo do que configurar um simples Dockerfile ou docker-compose.
+
+* 🛡️ Até o momento ainda tenhas teorias das causas do problema e estou em busca de respostas. Como eu disse a guerra ainda há de vir!
+
+## Minhas considerações finais... ✍️
+
+
