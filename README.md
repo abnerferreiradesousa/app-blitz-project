@@ -26,4 +26,8 @@ operador OR e AND, respectivamente.
 
 * 💥 Context API e Hooks - Esse foi um cadinho desafiante, tive bastante problema. Entre eles uma variável token que não estava sendo populada quando deveria, código assíncrono quando se faz uma requisição para a API de tarefas, ou mesmo bugs, quando uma variável tasks é populada, mas seu conteúdo não é renderizado na tela.
 
-* 🛡️ Como resolvi? Não resolvi. O último bug em específico em que a variável é populado, mas seu valor não é renderizado ainda não descobri o que pode ser.
+* 🛡️ Como resolvi? Não resolvi. O último bug em específico, em que a variável é populada, mas seu valor não é renderizado, ainda não descobri o que pode ser. Estou tentando buscando conteúdos relacionados ao Ciclo de Componentes, coisas específicas do Context API e Hooks.
+
+### ⚔️ Round Three! Final! **Fiiiiight!** 🥊
+
+* Docker - sem dúvida esse foi o mais desafiante e do qual, como já sabe, não saí vitorioso. De início tentei dockerizar o backend, mas o que eu obtive foi
