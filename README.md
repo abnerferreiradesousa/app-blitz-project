@@ -36,7 +36,7 @@ operador OR e AND, respectivamente.
 
 ## Minhas considerações finais... ✍️
 
-Ao contrário do que possa parecer estou feliz com o resultado, é engraçado pensar que em um projeto que eu achava tão simples eu pude me desafiar tanto e encontrar inúmeras experiências de reflexão e aprendizado. Esse projeto não findar aqui só vai acabar quando eu o tiver conluído por inteiro. Até o momento, consgio visualizar muitos pontos a serem explorados. E gostaria de listá-los aqui:
+Ao contrário do que possa parecer estou feliz com o resultado, é engraçado pensar que em um projeto que eu achava tão simples eu pude me desafiar tanto e encontrar inúmeras experiências de reflexão e aprendizado. Esse projeto não vai findar aqui só vai acabar quando eu o tiver conluído por inteiro. Até o momento, consigo visualizar muitos pontos a serem explorados. E gostaria de listá-los aqui:
 
 * Prioridades na resolução do desafio técnico - queria ter focado mais no núcleo do que era pedido no desafio, penso que poderia ter mostrado mais fazendo menos, investi tempo em detalhes comprometendo a entrega mínima do projeto.
 
