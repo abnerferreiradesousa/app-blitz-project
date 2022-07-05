@@ -10,6 +10,8 @@ suas tarefas do cotidiano com foco em produtividade e eficiência.
 
 Afim de poupar seu tempo, adianto que não conseguirar rodar esse projeto na sua máquina. O por quê? Digamos que a batalha entre docker *versus* 
 este que vos fala foi perdida, mas a guerra ainda há de vir. Esse foi só um dos desafios que encarei ao longo do projeto, vocẽ pode ver outros
-no tópico *Defafios que infrentei*.
+no tópico "*Defafios que infrentei*".
 
-## Defafios que infrentei...🛡️ ⚔️ 🗡️ 💥 🔥
+## Defafios que infrentei...🛡️  🗡️ 💥 🔥
+
+* ⚔️ Round One! **Fight** 🥊
