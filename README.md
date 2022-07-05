@@ -38,31 +38,31 @@ operador OR e AND, respectivamente.
 
 📚 Ao contrário do que possa parecer estou feliz com o resultado, é engraçado pensar que em um projeto que eu achava tão simples eu pude me desafiar tanto e encontrar inúmeras experiências de reflexão e aprendizado. Esse projeto não vai findar aqui, só vai acabar quando eu o tiver conluído por inteiro. Até o momento, consigo visualizar muitos pontos a serem explorados. E gostaria de listá-los aqui:
 
-* Prioridades na resolução do desafio técnico - queria ter focado mais no núcleo do que era pedido no desafio, penso que poderia ter mostrado mais fazendo menos, investi tempo em detalhes comprometendo a entrega mínima do projeto.
+* 👉 Prioridades na resolução do desafio técnico - queria ter focado mais no núcleo do que era pedido no desafio, penso que poderia ter mostrado mais fazendo menos, investi tempo em detalhes comprometendo a entrega mínima do projeto.
 
-* Poderia ter feito um pouco de cada coisa ao construir a aplicação ao invés de deixar os testes para o final, por exemplo: uma rota, um teste, um esboço no Readme explicando o que a rota retorna.
+* 👉 Poderia ter feito um pouco de cada coisa ao construir a aplicação ao invés de deixar os testes para o final, por exemplo: uma rota, um teste, um esboço no Readme explicando o que a rota retorna.
 
-* Docker - quero muito dockerizar esse projeto e depois explorar o que é possível fazer com o Docker, de fato me aprofundar na tecnologia.
+* 👉 Docker - quero muito dockerizar esse projeto e depois explorar o que é possível fazer com o Docker, de fato me aprofundar na tecnologia.
 
-* Aprender como testar aplicação Frontend que usa Context API. 
+* 👉 Aprender como testar aplicação Frontend que usa Context API. 
 
 💻 Também quero listar as aprendizados em hard skills adquiridos/reforçados: 💻
 
-* Configurar todo o projeto do zero foi sensacional.
+* 👉 Configurar todo o projeto do zero foi sensacional.
 
-* Sequelize(ao configurá-lo tive mini problemas que me ajudaram a entender melhor como o Sequelize funciona).
+* 👉 Sequelize(ao configurá-lo tive mini problemas que me ajudaram a entender melhor como o Sequelize funciona).
 
-* Context API.
+* 👉 Context API.
 
-* React.
+* 👉 React.
 
-* JavaScript.
+* 👉 JavaScript.
 
-* NodeJs.
+* 👉 NodeJs.
 
-* Express.
+* 👉 Express.
 
-* Conseguir trabalhar em cima de um padrão de branches, commits e Pull Requests para cada incremento da aplicação. 
+* 👉 Conseguir trabalhar em cima de um padrão de branches, commits e Pull Requests para cada incremento da aplicação. 
 
 
 
