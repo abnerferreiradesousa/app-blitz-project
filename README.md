@@ -14,4 +14,8 @@ no tópico "*Defafios que infrentei*".
 
 ## Defafios que infrentei...🛡️  🗡️ 💥 🔥
 
-* ⚔️ Round One! **Fight** 🥊
+### ⚔️ Round One! **Fiiight!** 🥊
+
+* React - Tive dificuldade com as versões do React, algumas estavam quebrando, não conseguia conciliar meu código JavaScript com o código JSX(HTML).
+Passei 30 min. tentando entender porque as a tarefas não estavam sendo renderizadas na tela, o problema? Um || ao invés de &&, para os íntimos
+operador OR e AND, respectivamente.
