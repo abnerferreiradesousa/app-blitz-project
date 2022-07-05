@@ -30,10 +30,22 @@ operador OR e AND, respectivamente.
 
 ### ⚔️ Round Three! Final! **Fiiiiight!** 🥊
 
-* Docker - sem dúvida esse foi o mais desafiante e do qual, como já sabe, não saí vitorioso. De início tentei dockerizar o backend, mas a única coisa que  obtive foi **SequelizeConnectionRefusedError** ao *rodar o docker-compose up*, fiquei decepcionado, porém mais entusiasmado em ver que o Docker é mais profundo do que configurar um simples Dockerfile ou docker-compose.
+* 🔥 Docker - Sem dúvida esse foi o mais desafiante e do qual, como já sabe, não saí vitorioso. De início tentei dockerizar o backend, mas a única coisa que  obtive foi **SequelizeConnectionRefusedError** ao *rodar o docker-compose up*, fiquei decepcionado, porém mais entusiasmado em ver que o Docker é mais profundo do que configurar um simples Dockerfile ou docker-compose.
 
 * 🛡️ Até o momento ainda tenhas teorias das causas do problema e estou em busca de respostas. Como eu disse a guerra ainda há de vir!
 
 ## Minhas considerações finais... ✍️
+
+Ao contrário do que possa parecer estou feliz com o resultado, é engraçado pensar que em um projeto que eu achava tão simples eu pude me desafiar tanto e encontrar inúmeras experiências de reflexão e aprendizado. Esse projeto não findar aqui só vai acabar quando eu o tiver conluído por inteiro. Até o momento, consgio visualizar muitos pontos a serem explorados. E gostaria de listá-los aqui:
+
+* Prioridades na resolução do desafio técnico - queria ter focado mais no núcleo do que era pedido no desafio, penso que poderia ter mostrado mais fazendo menos, investi tempo em detalhes comprometendo a entrega mínima do projeto.
+
+* Poderia ter feito um pouco de cada coisa ao construir a aplicação ao invés de deixar os testes para o final, por exemplo: uma rota, um teste, um esboço no Readme explicando o que a rota retorna.
+
+* Docker - quero muito dockerizar esse projeto e depois explorar o que é possível fazer com o Docker me aprofundar na tecnologia.
+
+* Aprender como testar aplicação Frontend que usa Context API. 
+
+
 
 
